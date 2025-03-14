@@ -1,3 +1,6 @@
+const cors = require("cors");
+app.use(cors());
+
 require("dotenv").config(); // Cargar variables de entorno
 const express = require("express");
 const bodyParser = require("body-parser");
